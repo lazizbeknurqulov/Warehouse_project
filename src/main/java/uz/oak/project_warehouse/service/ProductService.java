@@ -153,8 +153,6 @@ public class ProductService {
         saveAll();
         List<ProductResponseDto> dtoList = new ArrayList<>();
 
-
-
         ResultDto resultDto = new ResultDto();
 
         for (ProductDto productDto : productDtoList) {
